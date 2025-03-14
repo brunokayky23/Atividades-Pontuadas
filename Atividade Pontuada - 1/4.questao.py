@@ -3,12 +3,11 @@ os.system("clear")
 
 # Uma fruteira está vendendo frutas com a seguinte tabela de preços:
 
-valor_kg = input("""
+print("""
 Tabela das Frutas                
  Frutas \t Até 5kg \t\t Acima de 5kg 
 Morango \t R$ 2,50 POR Kg\t\t  R$ 2,20 por Kg 
 Maçã \t\t R$ 1,80 por Kg \t R$ 1,50 por Kg      
-Aperte ENTER para continuar:
 """)
 
 # Se o cliente comprar a partir de 10 Kg em frutas ou o valor total da compra ultrapassar R$ 15,00, 

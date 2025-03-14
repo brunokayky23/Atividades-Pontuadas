@@ -14,9 +14,7 @@ M - Masculino
 F - Feminino             
 Digite a letra correspondente ao seu sexo:
 """).upper() 
-while sexo not in ["M", "F"]:
-    print("Resposta errada! Digite 'M' para masculino ou 'F' para feminino.")
-    sexo = input("Digite seu sexo corretamente (M para Masculino, F para Feminino): ").upper()
+
 
 estado_civil = input("""
 Casado(a)
@@ -35,10 +33,11 @@ else:
 
 
 print(f"Nome: {nome}")
-
-if sexo == "F":
-    print("Sexo: Feminino")
-else:
-    print("Sexo: Masculino")
-
+match sexo:
+    case "f" |"F":
+        print("Sexo: Feminino")
+    case "m"| "M":
+        print("Sexo: Masculino")
+    case _: 
+        print("O sexo não consta, digite novamente!" )
 print(f"Estado Civil: {estado_civil}")
