@@ -15,7 +15,7 @@ F - Feminino
 Digite a letra correspondente ao seu sexo:
 """).upper() 
 while sexo not in ["M", "F"]:
-    print("Resposta está errada! Digite 'M' para masculino ou 'F' para feminino.")
+    print("Resposta errada! Digite 'M' para masculino ou 'F' para feminino.")
     sexo = input("Digite seu sexo corretamente (M para Masculino, F para Feminino): ").upper()
 
 estado_civil = input("""
