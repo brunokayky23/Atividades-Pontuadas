@@ -48,10 +48,10 @@ match tipo_combustivel:
 
 valor_a_pagar = preco_total - desconto
 
+print("")
 
-if preco_total > 0:
-    print(f"Litros vendidos: {litros_vendidos}")
-    print(f"Preço total: R$ {preco_total:.2f}")
-    print(f"Desconto aplicado: R$ {desconto:.2f}")
-    print(f"Valor a ser pago: R$ {valor_a_pagar:.2f}")
+print(f"Litros vendidos: {litros_vendidos}")
+print(f"Preço total: R$ {preco_total:.2f}")
+print(f"Desconto aplicado: R$ {desconto:.2f}")
+print(f"Valor a ser pago: R$ {valor_a_pagar:.2f}")
 
